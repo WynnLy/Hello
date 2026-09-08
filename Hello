@@ -1,0 +1,11 @@
+Method 1: Using the Registry Editor (Works on all Windows versions)Press the Windows Key + R on your keyboard, type regedit, and press Enter to open the Registry Editor.In the top address bar, paste the following path and press Enter:HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows DefenderLook for a file named DisableAntiSpyware on the right side.If it's there: Double-click it.If it's not there: Right-click an empty space on the right side, select New > DWORD (32-bit) Value, and name it genau DisableAntiSpyware.Double-click DisableAntiSpyware, change the Value data from 0 to 1, and click OK.Restart your laptop.
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+DisableAntiSpyware
+s
+s
+s
+s
+Method 2: Using Group Policy (Windows Pro / Enterprise only)Press the Windows Key + R, type gpedit.msc, and press Enter.Go to: Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus.On the right side, find and double-click Turn off Microsoft Defender Antivirus.Select Enabled (this enables the policy that turns the antivirus off).Click Apply, then OK, and restart your laptop.
+Press the Windows Key + R, type gpedit.msc, and press Enter.
+Go to: Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus
+On the right side, find and double-click Turn off Microsoft Defender Antivirus.Select Enabled (this enables the policy that turns the antivirus off).Click Apply, then OK, and restart your laptop.
