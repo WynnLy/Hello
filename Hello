@@ -9,3 +9,10 @@ Method 2: Using Group Policy (Windows Pro / Enterprise only)Press the Windows Ke
 Press the Windows Key + R, type gpedit.msc, and press Enter.
 Go to: Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus
 On the right side, find and double-click Turn off Microsoft Defender Antivirus.Select Enabled (this enables the policy that turns the antivirus off).Click Apply, then OK, and restart your laptop.
+
+1. Open Task Scheduler: Press the Windows key, type Task Scheduler, and open the application.
+2. Create a New Task: In the right-hand panel, click Create Task... to open the task creation window.
+3. Configure General Settings: Give your task a name, and under security options, make sure to check Run with highest privileges.
+4. Set the Trigger: Go to the Triggers tab, click New..., and set the task to begin At startup, then click OK.
+5. Select the Program: Go to the Actions tab, click New..., browse to select the executable file or script you want to run, and click OK.
+6. Save the Task: Click OK at the bottom of the Create Task window to save your new scheduled task.
