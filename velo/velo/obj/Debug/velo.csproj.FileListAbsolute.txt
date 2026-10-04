@@ -1,0 +1,12 @@
+C:\Users\wynnl\Downloads\velo\velo\bin\Debug\velo.exe.config
+C:\Users\wynnl\Downloads\velo\velo\bin\Debug\velo.exe
+C:\Users\wynnl\Downloads\velo\velo\bin\Debug\velo.pdb
+C:\Users\wynnl\Downloads\velo\velo\bin\Debug\SodaAPIV2.dll
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.csproj.AssemblyReference.cache
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.Form1.resources
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.Properties.Resources.resources
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.csproj.GenerateResource.cache
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.csproj.CoreCompileInputs.cache
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.csproj.Up2Date
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.exe
+C:\Users\wynnl\Downloads\velo\velo\obj\Debug\velo.pdb
